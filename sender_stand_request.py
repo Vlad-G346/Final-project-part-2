@@ -8,7 +8,7 @@ def create_new_order(order_body):
 	                     json = order_body,
 	                     headers = data.headers)
 
-# Получение заказа по номеру трекера
+# 2. Получение заказа по номеру трекера
 def get_order_from_track(track):
 	return requests.get(configuration.URL_SERVICE + configuration.TRACK_ORDER + str(track),
 	                    headers = data.headers)
