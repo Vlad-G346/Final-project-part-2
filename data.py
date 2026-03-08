@@ -9,7 +9,7 @@ order_body = {
     "metroStation": 219,
     "phone": "+34916103451",
     "rentTime": 5,
-    "deliveryDate": "2026-03-07",
+    "deliveryDate": "2026-03-09",
     "comment": "Привет!",
     "color": ["BLACK"]
 }

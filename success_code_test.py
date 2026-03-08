@@ -1,3 +1,4 @@
+# Владислав Гудков 41-я когорта, дипломный проект, вторая часть
 import sender_stand_request
 import data
 
