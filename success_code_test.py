@@ -8,12 +8,7 @@ def create_and_get_order_status():
     track = response.json()["track"]
     response_track = sender_stand_request.get_order_from_track(track)
 
-    print("Track:", track)
-    print("Status:", response_track.status_code)
-    print("Response:", response_track.json())
-
     return response_track.status_code
-
 
 # 4. Проверка, что код ответа равен 200
 def test_get_order_from_track_code_200():
